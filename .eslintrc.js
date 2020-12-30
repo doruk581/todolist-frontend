@@ -3,7 +3,6 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": "airbnb",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -13,10 +12,5 @@ module.exports = {
     },
     "plugins": [
         "react"
-    ],
-    "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "import/no-extraneous-dependencies": [2, { devDependencies: true }],
-
-    }
+    ]
 };
